@@ -9,5 +9,5 @@
   }, 
   "date2": "{{ post.date | date_to_string }}", 
   "content": "{{ post.content }}", 
-  "excerpt": "{{ post.excerpt }}"
+  "excerpt": "{{ post.excerpt | remove: '¥n' }}"
 }
