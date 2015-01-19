@@ -1,5 +1,4 @@
 ---
-layout: json_
 ---
 
 var bbsData = {
