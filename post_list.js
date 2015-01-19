@@ -12,4 +12,4 @@ var post_list_text = '{
 
 post_list_text = post_list_text.replace(/¥n/g, '').replace(/ /g, ''); 
 
-var post_list = JSON.parse(post_list_text; 
+var post_list = JSON.parse(post_list_text); 
