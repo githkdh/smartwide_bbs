@@ -9,5 +9,5 @@
   }, 
   "date2": "{{ post.date | date_to_string }}", 
   "content": "{{ post.content | tidy }}",
-  "content": "{{ post.content | stringify }}"
+  "content2": "{{ post.content | stringify }}"
 }
