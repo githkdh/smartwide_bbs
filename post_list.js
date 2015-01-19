@@ -1,8 +1,10 @@
 ---
 ---
-"posts": [
-  null
-  {% for post in site.posts %}
-    ,{% include post.json %}
-  {% endfor %}
-]
+{
+  "posts": [
+    null
+    {% for post in site.posts %}
+      ,{% include post.json %}
+    {% endfor %}
+  ]
+}
