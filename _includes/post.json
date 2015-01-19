@@ -8,6 +8,5 @@
     "year"  : "{{ post.date | date: "%Y" }}"
   }, 
   "date2": "{{ post.date | date_to_string }}", 
-  "content": "{{ post.content }}", 
-  "excerpt": "{{ post.excerpt | remove: '¥n' }}"
+  "content": "{{ post.content | xml_escape }}"
 }
