@@ -1,7 +1,7 @@
 ---
 ---
 
-var bbs_data = {
+var post_index = {
     "posts": [
       null
       {% for post in site.posts %}
