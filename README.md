@@ -1,0 +1,1 @@
+smartwide.co.jp / notice 
